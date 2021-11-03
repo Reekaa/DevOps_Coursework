@@ -7,15 +7,15 @@ class Dec2Hex
 
     public static void main(String args[])
     {
-        if(args.length == 0){
-            System.out.println("Please provide a number to convert.");
+        if(args.length <= 0){
+            System.err.println("Please provide a number to convert.");
             System.exit(0);
         }
 
         try {
             Arg1 = Integer.parseInt(args[0]);
         } catch (NumberFormatException e){
-            System.out.println("Please provide a valid number");
+            System.err.println("Please provide a valid number");
             System.exit(0);
         }
         
