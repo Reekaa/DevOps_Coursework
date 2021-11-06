@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="Dec2HexTest" time="0.05" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="Dec2HexTest" time="0.043" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.2.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -59,7 +59,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="Dec2HexTest" name="testWithNonIntegerInput" time="0.009"/>
-  <testcase classname="Dec2HexTest" name="testWithCorrectInput" time="0.041"/>
+  <testcase classname="Dec2HexTest" name="testWithNonIntegerInput" time="0.01"/>
+  <testcase classname="Dec2HexTest" name="testWithCorrectInput" time="0.033"/>
   <testcase classname="Dec2HexTest" name="testNoInput" time="0"/>
 </testsuite>
