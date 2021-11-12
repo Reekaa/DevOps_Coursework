@@ -5,9 +5,9 @@ class Dec2Hex {
     public static void main(String[] args) {
 
         // validation check
-//        if (args.length <= 0) {
-//            System.err.println("Please provide a number to convert.");
-//        } else {
+        if (args.length <= 0) {
+            System.err.println("Please provide a number to convert.");
+        } else {
             // parsing int
             try {
                 Arg1 = Integer.parseInt(args[0]);
@@ -29,7 +29,7 @@ class Dec2Hex {
             } catch (NumberFormatException e) {
                 System.err.println("Please provide a valid number");
             }
-//        }
+        }
     }
 }
 
